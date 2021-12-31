@@ -8,9 +8,8 @@ References :-
 
 ## local run
 1. source env/bin/activate
-2. pip install fastapi-sessions
-3. uvicorn main:app --reload
-4. server starts on http://127.0.0.1:8000/docs
+2. uvicorn main:app --reload
+3. server starts on http://127.0.0.1:8000/docs
 
 
 Notes:-

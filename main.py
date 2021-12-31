@@ -4,7 +4,7 @@ from fastapi.templating import Jinja2Templates
 from fastapi_socketio import SocketManager
 
 
-users = {"vidya": {"password": "secret1"}, "edvora": {"password": "secret2"}}  #fake users with hash password
+users = {"vidya": {"password": "secret1"}, "edvora": {"password": "secret2"}}  #fake users without hash password
 
 # fastapi
 app = FastAPI()             
